@@ -1,0 +1,21 @@
+body{
+      margin: 0;
+      padding: 0;
+  }
+.move_in{
+    position: relative;
+}
+.sd{
+    width: 100px;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+}
+.sd>img{
+    width: 100%;
+
+}
+.move_in:hover>.sd{
+    display: block;
+
+}

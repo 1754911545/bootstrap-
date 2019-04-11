@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../cs/cs.css">
+    <script src="../lib/bootstrap/js/echarts.min.js"></script>
+
+</head>
+<body>
+<!-----------------------------导航栏-------------------------------------------->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="container-fluid">
+            <!-----------------------------主页附页-------------------------------------------->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="page_1.html">码教授</a>
+            </div>
+            <!-----------------------------登录-------------------------------------------->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li ><a href="page_1.html" class="glyphicon glyphicon-home"> 后台首页<span class="sr-only">(current)</span></a></li>
+                    <li ><a href="page_2.html" class="glyphicon glyphicon-user"> 用户管理</a></li>
+                    <li class="active"><a href="page_3.html" class="glyphicon glyphicon glyphicon-list-alt"> 内容管理</a></li>
+                    <li><a href="page_4.html" class="glyphicon glyphicon-tags"> 标签管理</a></li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">admin <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="page_1.html" class="glyphicon glyphicon-screenshot"> 前台首页</a></li>
+                            <li><a href="page_1.html" class="glyphicon glyphicon-user"> 个人主页</a></li>
+                            <li><a href="page_2.html" class="glyphicon glyphicon-cog"> 个人设置</a></li>
+                            <li><a href="page_3.html" class="glyphicon glyphicon-credit-card"> 账户中心</a></li>
+                            <li><a href="page_4.html" class="glyphicon glyphicon-heart"> 我的搜藏</a></li>
+                        </ul>
+                    </li>
+                    <li ><a href="#" > <span  class="glyphicon glyphicon-off" data-toggle="modal" data-target="#gridSystemModal"> 退出</span></a></li>
+                    <li class="move_in"><a href="#" class="dropdown-toggle"> 关注微信号 <sapn class="caret"></sapn></a>
+                        <div class="dropdown sd">
+                            <img src="../img/mmq.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+</nav>
+<!--------------------------内容管理------------------------------------>
+<div class="container">
+    <!---------------左边------------------>
+    <div class="row">
+        <div class="col-lg-2">
+            <div class="bs-example panel  panel-default" data-example-id="simple-nav-stacked">
+                <ul class="nav nav-pills nav-stacked ">
+                    <li role="presentation" class="active"><a  href="#home" aria-controls="home" role="tab" data-toggle="tab">内容管理</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">添加内容</a></li>
+                </ul>
+            </div>
+        </div>
+        <!---------------右边------------------>
+        <div class="col-lg-10">
+            <h4><strong>内容管理</strong></h4>
+            <div class="modal-footer"></div>
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#" >内容管理</a></li>
+                <li role="presentation"><a href="page_31.html" >添加内容</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <!-------------内容管理------------>
+                <div role="tabpanel" class="tab-pane active" id="home">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>文章标题</th>
+                            <th>作者</th>
+                            <th>发布时间</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><strong>泛MOOC职业教育，效果和就业为王</strong></td>
+                            <td>李小龙</td>
+                            <td>2019/04/08</td>
+                            <td>
+                                <button  class="dropdown btn btn-default">
+                                    <div href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">操作 <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> 前台首页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 个人主页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span> 账户中心</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> 我的收藏</a></li>
+                                    </ul>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>产品经理常犯的7大错误，你造吗？</strong></td>
+                            <td>李小龙</td>
+                            <td>2019/04/08</td>
+                            <td>
+                                <button  class="dropdown btn btn-default">
+                                    <div href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">操作 <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> 前台首页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 个人主页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span> 账户中心</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> 我的收藏</a></li>
+                                    </ul>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>如何正确使用Python日志系统</strong></td>
+                            <td>李小龙</td>
+                            <td>2019/04/08</td>
+                            <td>
+                                <button  class="dropdown btn btn-default">
+                                    <div href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">操作 <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> 前台首页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 个人主页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span> 账户中心</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> 我的收藏</a></li>
+                                    </ul>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>C语言conts修饰符怎么使用</strong></td>
+                            <td>李小龙</td>
+                            <td>2019/04/08</td>
+                            <td>
+                                <button  class="dropdown btn btn-default">
+                                    <div href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">操作 <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> 前台首页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 个人主页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span> 账户中心</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> 我的收藏</a></li>
+                                    </ul>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Android开发用onCReatOptionMenu（）怎么使用</strong></td>
+                            <td>李小龙</td>
+                            <td>2019/04/08</td>
+                            <td>
+                                <button  class="dropdown btn btn-default">
+                                    <div href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">操作 <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> 前台首页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 个人主页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span> 账户中心</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> 我的收藏</a></li>
+                                    </ul>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>怎样才能成为优秀的ISO开发工程师</strong></td>
+                            <td>李小龙</td>
+                            <td>2019/04/08</td>
+                            <td>
+                                <button  class="dropdown btn btn-default">
+                                    <div href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">操作 <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> 前台首页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 个人主页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span> 账户中心</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> 我的收藏</a></li>
+                                    </ul>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Android今年推出了些什么新技术</strong></td>
+                            <td>李小龙</td>
+                            <td>2019/04/08</td>
+                            <td>
+                                <button  class="dropdown btn btn-default">
+                                    <div href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">操作 <span class="caret"></span></div>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span> 前台首页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> 个人主页</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> 个人设置</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span> 账户中心</a></li>
+                                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> 我的收藏</a></li>
+                                    </ul>
+                                </button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------调用尾部------------------------------------------------>
+<iframe src="tail.html" width="100%"; height="100%" frameborder="0" scrolling="no" name="headFrame"></iframe>
+
+</body>
+<script src="../lib/bootstrap/js/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+
+</html>
