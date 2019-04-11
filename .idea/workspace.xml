@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7680f416-294e-4acf-933b-4174ff5d43e1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/img/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/img/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/img/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/img/android.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/img/ios.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/img/mmq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/untitled6.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/.idea/hesiyu.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/backstage/page_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/backstage/page_2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/backstage/page_21.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/backstage/page_3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/backstage/page_31.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/backstage/page_4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/cs/cs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/js/echarts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/js/echarts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/js/js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hesiyu/lib/bootstrap/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -263,12 +222,12 @@
       <workItem from="1550225091093" duration="2420000" />
       <workItem from="1550472530098" duration="7171000" />
       <workItem from="1554983014476" duration="1189000" />
-      <workItem from="1554985568739" duration="2316000" />
+      <workItem from="1554985568739" duration="4406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13096000" />
+    <option name="totallyTimeSpent" value="15186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
